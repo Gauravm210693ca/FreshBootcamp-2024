@@ -1,0 +1,18 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String inputString = sc.nextLine();
+        String searchword = sc.next();
+        String[] inputArray = inputString.split(" ");
+        Search(inputString,searchWord);
+    }
+    public boolean search(String[] inputString,String searchWord){
+        for(int index = 0;index<inputString.length;index++){
+            if(inputString[index].equals(searchWord)){
+                return true;
+            }
+        }
+        return false;
+    }
+}
