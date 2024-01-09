@@ -15,4 +15,12 @@ class SearchWord {
         }
         return false;
     }
+    public static void print(boolean value){
+        if(value == true){
+            System.out.println("Found");
+        }
+        else{
+            System.out.println("Not Found");
+        }
+    }
 }
