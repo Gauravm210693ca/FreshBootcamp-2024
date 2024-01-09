@@ -1,5 +1,5 @@
 import java.util.*;
-class HelloWorld {
+class SearchWord {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String inputString = sc.nextLine();
