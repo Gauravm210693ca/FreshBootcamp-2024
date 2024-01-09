@@ -3,25 +3,17 @@ class SearchWord {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String inputString = sc.nextLine();
-        String searchword = sc.next();
+        String searchWord = sc.next();
         String[] inputArray = inputString.split(" ");
-        boolean isStringPresent = Search(inputString,searchWord);
-        print(isStringPresent);
+        System.out.println(searchString(inputArray,searchWord));
     }
-    public boolean search(String[] inputString,String searchWord){
-        for(int index = 0;index<inputString.length;index++){
-            if(inputString[index].equals(searchWord)){
+    public static boolean searchString(String[] inputArray,String searchWord){
+        for(int index = 0;index<inputArray.length;index++){
+            if(inputArray[index].equals(searchWord)){
                 return true;
             }
         }
         return false;
     }
-    public static void print(boolean isStringPresent){
-        if(isStringPresent == true){
-            System.out.println("Found");
-        }
-        else{
-            System.out.println("Not Found");
-        }
-    }
+    
 }
