@@ -5,7 +5,8 @@ class SearchWord {
         String inputString = sc.nextLine();
         String searchword = sc.next();
         String[] inputArray = inputString.split(" ");
-        Search(inputString,searchWord);
+        boolean isStringPresent = Search(inputString,searchWord);
+        print(isStringPresent);
     }
     public boolean search(String[] inputString,String searchWord){
         for(int index = 0;index<inputString.length;index++){
@@ -15,8 +16,8 @@ class SearchWord {
         }
         return false;
     }
-    public static void print(boolean value){
-        if(value == true){
+    public static void print(boolean isStringPresent){
+        if(isStringPresent == true){
             System.out.println("Found");
         }
         else{
