@@ -7,7 +7,7 @@ class SearchWord {
         String[] inputArray = inputString.split(" ");
         System.out.println(searchString(inputArray,searchWord));
     }
-    public static boolean searchString(String[] inputArray,String searchWord){
+    public static boolean isStringPresent(String[] inputArray,String searchWord){
         for(int index = 0;index<inputArray.length;index++){
             if(inputArray[index].equals(searchWord)){
                 return true;
