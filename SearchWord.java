@@ -4,16 +4,28 @@ class SearchWord {
         Scanner sc = new Scanner(System.in);
         String inputString = sc.nextLine();
         String searchWord = sc.next();
+        ArrayList<String> FilteredStringList = new ArrayList<String>();
         String[] inputArray = inputString.split(" ");
-        System.out.println(searchString(inputArray,searchWord));
+        FilteredStringList = searchString(inputArray,searchWord);
+        displayInTerminal(FilteredStringList);
     }
-    public static boolean isStringPresent(String[] inputArray,String searchWord){
+    public static ArrayList searchString(String[] inputArray,String searchWord){
+        ArrayList<String> filtered = new ArrayList<String>();
         for(int index = 0;index<inputArray.length;index++){
             if(inputArray[index].equals(searchWord)){
-                return true;
+                filtered.add(inputArray[index]);
+                return filtered;
             }
         }
-        return false;
+        return filtered;
     }
-   
+    public static void displayInTerminal(ArrayList<String> FilteredStringList){
+        if(FilteredStringList.size() == 0){
+            System.out.println("NotFound");
+        }
+        else{
+            System.out.println("Found");
+        }
+    }
+    
 }
