@@ -2,19 +2,19 @@
 import java.util.*;
 
 class StartsWithStrategy {
-    private String startString;
+    private String stringStartsWith;
     public void setStartsWith(String key){
-        startString = key;
+        stringStartsWith = key;
     }
     public boolean invoke(String item){
-        return item.startsWith(startString);
+        return item.startsWith(stringStartsWith);
     }
 }
 
 class ConsoleDisplayController {
     private ArrayList<String> content;
-    public void setContent(ArrayList<String> msg){
-        content = msg;
+    public void setContent(ArrayList<String> message){
+        content = message;
     }
     public void display(){
         System.out.print(content.toString());
