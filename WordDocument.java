@@ -18,22 +18,22 @@ class WordDocument{
     }
 }
 interface Iconvertor{
-    void convert(Paragraph p);
-    void convert(Header h);
-    void convert(HyperLink hl);
-    void convert(Footer f);
+    void convert(Paragraph prgh);
+    void convert(Header hdr);
+    void convert(HyperLink hlink);
+    void convert(Footer foo);
 }
 class HTMLConvertor implements Iconvertor{
-    public void convert(Paragraph p){
+    public void convert(Paragraph prgh){
         
     }
-    public void convert(Header h){
+    public void convert(Header hdr){
         
     }
-    public void convert(HyperLink hl){
+    public void convert(HyperLink hlink){
         
     }
-    public void convert(Footer f){
+    public void convert(Footer foo){
         
     }
 }
