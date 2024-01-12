@@ -1,4 +1,10 @@
 import java.util.*;
+interface Iconvertor{
+    void convert(Paragraph prgh);
+    void convert(Header hdr);
+    void convert(HyperLink hlink);
+    void convert(Footer foo);
+}
 class WordDocument{
     DocumentParts[] documentParts;
     
@@ -17,12 +23,7 @@ class WordDocument{
         }
     }
 }
-interface Iconvertor{
-    void convert(Paragraph prgh);
-    void convert(Header hdr);
-    void convert(HyperLink hlink);
-    void convert(Footer foo);
-}
+
 class HTMLConvertor implements Iconvertor{
     public void convert(Paragraph prgh){
         
