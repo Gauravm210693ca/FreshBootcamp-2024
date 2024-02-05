@@ -1,0 +1,17 @@
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\StringCalculatorsLib.Test.dll
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\StringCalculatorsLib.Test.pdb
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\zeiss.StringCalulatorLib.dll
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\zeiss.StringCalulatorLib.pdb
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\obj\Debug\StringCalculatorsLib.Test.csproj.AssemblyReference.cache
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\obj\Debug\StringCalculatorsLib.Test.csproj.CoreCompileInputs.cache
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\obj\Debug\StringCalculatorsLib.Test.csproj.CopyComplete
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\obj\Debug\StringCalculatorsLib.Test.dll
+C:\Users\x6ggupta\source\repos\StringCalculator\StringCalculatorsLib.Test\obj\Debug\StringCalculatorsLib.Test.pdb
