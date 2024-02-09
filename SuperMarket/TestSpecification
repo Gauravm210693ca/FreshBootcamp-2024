@@ -1,20 +1,27 @@
+TestCase1 NoItem
 Given: ""
 Then: 0
 
+TestCase2 OneItem
 Given: "A"
 Then : 50
 
+TestCase3 OneItem
 Given: "B"
 Then 30
 
+TestCse4 MultipleItemsWithOffer
 Given: "AAA"
 Then: 130
 
+TestCase5 MultipleSameItemWithOffer
 Given: "BB"
 Then: 45
 
+TestCase6 MixedItemsWithOffer
 Given :"ABAA"
 Then : 160
 
+TestCase7 MultipleItemsWithNoOffer
 Given "CDBA"
 Then : 115
