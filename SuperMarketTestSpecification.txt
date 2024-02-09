@@ -1,0 +1,20 @@
+Given: ""
+Then: 0
+
+Given: "A"
+Then : 50
+
+Given: "B"
+Then 30
+
+Given: "AAA"
+Then: 130
+
+Given: "BB"
+Then: 45
+
+Given :"ABAA"
+Then : 160
+
+Given "CDBA"
+Then : 115
